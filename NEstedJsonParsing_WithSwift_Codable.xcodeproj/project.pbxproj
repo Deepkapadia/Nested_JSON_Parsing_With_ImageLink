@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7536BD9A21FDC1EF00F0A391 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7536BD9921FDC1EF00F0A391 /* AppDelegate.swift */; };
+		7536BD9C21FDC1EF00F0A391 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7536BD9B21FDC1EF00F0A391 /* ViewController.swift */; };
+		7536BD9F21FDC1EF00F0A391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7536BD9D21FDC1EF00F0A391 /* Main.storyboard */; };
+		7536BDA221FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_Codable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7536BDA021FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_Codable.xcdatamodeld */; };
+		7536BDA421FDC1EF00F0A391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7536BDA321FDC1EF00F0A391 /* Assets.xcassets */; };
+		7536BDA721FDC1EF00F0A391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7536BDA521FDC1EF00F0A391 /* LaunchScreen.storyboard */; };
+		7536BDB221FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7536BDB121FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableTests.swift */; };
+		7536BDBD21FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7536BDBC21FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableUITests.swift */; };
+		7536BDCB21FDC1FD00F0A391 /* Complex_Json.json in Resources */ = {isa = PBXBuildFile; fileRef = 7536BDCA21FDC1FD00F0A391 /* Complex_Json.json */; };
+		756AD24021FED0F300CE8ABB /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756AD23F21FED0F300CE8ABB /* CustomCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7536BDAE21FDC1EF00F0A391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7536BD8E21FDC1EF00F0A391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7536BD9521FDC1EF00F0A391;
+			remoteInfo = NEstedJsonParsing_WithSwift_Codable;
+		};
+		7536BDB921FDC1EF00F0A391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7536BD8E21FDC1EF00F0A391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7536BD9521FDC1EF00F0A391;
+			remoteInfo = NEstedJsonParsing_WithSwift_Codable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7536BD9621FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_Codable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NEstedJsonParsing_WithSwift_Codable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7536BD9921FDC1EF00F0A391 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7536BD9B21FDC1EF00F0A391 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7536BD9E21FDC1EF00F0A391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7536BDA121FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_Codable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NEstedJsonParsing_WithSwift_Codable.xcdatamodel; sourceTree = "<group>"; };
+		7536BDA321FDC1EF00F0A391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7536BDA621FDC1EF00F0A391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7536BDA821FDC1EF00F0A391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7536BDAD21FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NEstedJsonParsing_WithSwift_CodableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7536BDB121FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEstedJsonParsing_WithSwift_CodableTests.swift; sourceTree = "<group>"; };
+		7536BDB321FDC1EF00F0A391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7536BDB821FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NEstedJsonParsing_WithSwift_CodableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7536BDBC21FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEstedJsonParsing_WithSwift_CodableUITests.swift; sourceTree = "<group>"; };
+		7536BDBE21FDC1EF00F0A391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7536BDCA21FDC1FD00F0A391 /* Complex_Json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Complex_Json.json; sourceTree = "<group>"; };
+		756AD23F21FED0F300CE8ABB /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7536BD9321FDC1EF00F0A391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7536BDAA21FDC1EF00F0A391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7536BDB521FDC1EF00F0A391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7536BD8D21FDC1EF00F0A391 = {
+			isa = PBXGroup;
+			children = (
+				7536BD9821FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_Codable */,
+				7536BDB021FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableTests */,
+				7536BDBB21FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableUITests */,
+				7536BD9721FDC1EF00F0A391 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7536BD9721FDC1EF00F0A391 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7536BD9621FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_Codable.app */,
+				7536BDAD21FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableTests.xctest */,
+				7536BDB821FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7536BD9821FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_Codable */ = {
+			isa = PBXGroup;
+			children = (
+				7536BDCA21FDC1FD00F0A391 /* Complex_Json.json */,
+				7536BD9921FDC1EF00F0A391 /* AppDelegate.swift */,
+				7536BD9B21FDC1EF00F0A391 /* ViewController.swift */,
+				7536BD9D21FDC1EF00F0A391 /* Main.storyboard */,
+				7536BDA321FDC1EF00F0A391 /* Assets.xcassets */,
+				7536BDA521FDC1EF00F0A391 /* LaunchScreen.storyboard */,
+				7536BDA821FDC1EF00F0A391 /* Info.plist */,
+				7536BDA021FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_Codable.xcdatamodeld */,
+				756AD23F21FED0F300CE8ABB /* CustomCell.swift */,
+			);
+			path = NEstedJsonParsing_WithSwift_Codable;
+			sourceTree = "<group>";
+		};
+		7536BDB021FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableTests */ = {
+			isa = PBXGroup;
+			children = (
+				7536BDB121FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableTests.swift */,
+				7536BDB321FDC1EF00F0A391 /* Info.plist */,
+			);
+			path = NEstedJsonParsing_WithSwift_CodableTests;
+			sourceTree = "<group>";
+		};
+		7536BDBB21FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7536BDBC21FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableUITests.swift */,
+				7536BDBE21FDC1EF00F0A391 /* Info.plist */,
+			);
+			path = NEstedJsonParsing_WithSwift_CodableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7536BD9521FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_Codable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7536BDC121FDC1EF00F0A391 /* Build configuration list for PBXNativeTarget "NEstedJsonParsing_WithSwift_Codable" */;
+			buildPhases = (
+				7536BD9221FDC1EF00F0A391 /* Sources */,
+				7536BD9321FDC1EF00F0A391 /* Frameworks */,
+				7536BD9421FDC1EF00F0A391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NEstedJsonParsing_WithSwift_Codable;
+			productName = NEstedJsonParsing_WithSwift_Codable;
+			productReference = 7536BD9621FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_Codable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7536BDAC21FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7536BDC421FDC1EF00F0A391 /* Build configuration list for PBXNativeTarget "NEstedJsonParsing_WithSwift_CodableTests" */;
+			buildPhases = (
+				7536BDA921FDC1EF00F0A391 /* Sources */,
+				7536BDAA21FDC1EF00F0A391 /* Frameworks */,
+				7536BDAB21FDC1EF00F0A391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7536BDAF21FDC1EF00F0A391 /* PBXTargetDependency */,
+			);
+			name = NEstedJsonParsing_WithSwift_CodableTests;
+			productName = NEstedJsonParsing_WithSwift_CodableTests;
+			productReference = 7536BDAD21FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7536BDB721FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7536BDC721FDC1EF00F0A391 /* Build configuration list for PBXNativeTarget "NEstedJsonParsing_WithSwift_CodableUITests" */;
+			buildPhases = (
+				7536BDB421FDC1EF00F0A391 /* Sources */,
+				7536BDB521FDC1EF00F0A391 /* Frameworks */,
+				7536BDB621FDC1EF00F0A391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7536BDBA21FDC1EF00F0A391 /* PBXTargetDependency */,
+			);
+			name = NEstedJsonParsing_WithSwift_CodableUITests;
+			productName = NEstedJsonParsing_WithSwift_CodableUITests;
+			productReference = 7536BDB821FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7536BD8E21FDC1EF00F0A391 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "DeEp KapaDia";
+				TargetAttributes = {
+					7536BD9521FDC1EF00F0A391 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7536BDAC21FDC1EF00F0A391 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7536BD9521FDC1EF00F0A391;
+					};
+					7536BDB721FDC1EF00F0A391 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7536BD9521FDC1EF00F0A391;
+					};
+				};
+			};
+			buildConfigurationList = 7536BD9121FDC1EF00F0A391 /* Build configuration list for PBXProject "NEstedJsonParsing_WithSwift_Codable" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7536BD8D21FDC1EF00F0A391;
+			productRefGroup = 7536BD9721FDC1EF00F0A391 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7536BD9521FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_Codable */,
+				7536BDAC21FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableTests */,
+				7536BDB721FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7536BD9421FDC1EF00F0A391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7536BDA721FDC1EF00F0A391 /* LaunchScreen.storyboard in Resources */,
+				7536BDA421FDC1EF00F0A391 /* Assets.xcassets in Resources */,
+				7536BDCB21FDC1FD00F0A391 /* Complex_Json.json in Resources */,
+				7536BD9F21FDC1EF00F0A391 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7536BDAB21FDC1EF00F0A391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7536BDB621FDC1EF00F0A391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7536BD9221FDC1EF00F0A391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7536BDA221FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_Codable.xcdatamodeld in Sources */,
+				7536BD9C21FDC1EF00F0A391 /* ViewController.swift in Sources */,
+				756AD24021FED0F300CE8ABB /* CustomCell.swift in Sources */,
+				7536BD9A21FDC1EF00F0A391 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7536BDA921FDC1EF00F0A391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7536BDB221FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7536BDB421FDC1EF00F0A391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7536BDBD21FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_CodableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7536BDAF21FDC1EF00F0A391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7536BD9521FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_Codable */;
+			targetProxy = 7536BDAE21FDC1EF00F0A391 /* PBXContainerItemProxy */;
+		};
+		7536BDBA21FDC1EF00F0A391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7536BD9521FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_Codable */;
+			targetProxy = 7536BDB921FDC1EF00F0A391 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7536BD9D21FDC1EF00F0A391 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7536BD9E21FDC1EF00F0A391 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7536BDA521FDC1EF00F0A391 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7536BDA621FDC1EF00F0A391 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7536BDBF21FDC1EF00F0A391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7536BDC021FDC1EF00F0A391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7536BDC221FDC1EF00F0A391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NEstedJsonParsing_WithSwift_Codable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Project.NEstedJsonParsing-WithSwift-Codable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7536BDC321FDC1EF00F0A391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NEstedJsonParsing_WithSwift_Codable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Project.NEstedJsonParsing-WithSwift-Codable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7536BDC521FDC1EF00F0A391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NEstedJsonParsing_WithSwift_CodableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Project.NEstedJsonParsing-WithSwift-CodableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NEstedJsonParsing_WithSwift_Codable.app/NEstedJsonParsing_WithSwift_Codable";
+			};
+			name = Debug;
+		};
+		7536BDC621FDC1EF00F0A391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NEstedJsonParsing_WithSwift_CodableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Project.NEstedJsonParsing-WithSwift-CodableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NEstedJsonParsing_WithSwift_Codable.app/NEstedJsonParsing_WithSwift_Codable";
+			};
+			name = Release;
+		};
+		7536BDC821FDC1EF00F0A391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NEstedJsonParsing_WithSwift_CodableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Project.NEstedJsonParsing-WithSwift-CodableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NEstedJsonParsing_WithSwift_Codable;
+			};
+			name = Debug;
+		};
+		7536BDC921FDC1EF00F0A391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NEstedJsonParsing_WithSwift_CodableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Project.NEstedJsonParsing-WithSwift-CodableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NEstedJsonParsing_WithSwift_Codable;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7536BD9121FDC1EF00F0A391 /* Build configuration list for PBXProject "NEstedJsonParsing_WithSwift_Codable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7536BDBF21FDC1EF00F0A391 /* Debug */,
+				7536BDC021FDC1EF00F0A391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7536BDC121FDC1EF00F0A391 /* Build configuration list for PBXNativeTarget "NEstedJsonParsing_WithSwift_Codable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7536BDC221FDC1EF00F0A391 /* Debug */,
+				7536BDC321FDC1EF00F0A391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7536BDC421FDC1EF00F0A391 /* Build configuration list for PBXNativeTarget "NEstedJsonParsing_WithSwift_CodableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7536BDC521FDC1EF00F0A391 /* Debug */,
+				7536BDC621FDC1EF00F0A391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7536BDC721FDC1EF00F0A391 /* Build configuration list for PBXNativeTarget "NEstedJsonParsing_WithSwift_CodableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7536BDC821FDC1EF00F0A391 /* Debug */,
+				7536BDC921FDC1EF00F0A391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7536BDA021FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_Codable.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7536BDA121FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_Codable.xcdatamodel */,
+			);
+			currentVersion = 7536BDA121FDC1EF00F0A391 /* NEstedJsonParsing_WithSwift_Codable.xcdatamodel */;
+			path = NEstedJsonParsing_WithSwift_Codable.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7536BD8E21FDC1EF00F0A391 /* Project object */;
+}
